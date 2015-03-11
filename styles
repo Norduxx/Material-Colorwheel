@@ -1,0 +1,77 @@
+#color_cycle {
+	background-color: #fff;
+	background-image: initial;
+	background-position-x: initial;
+	background-position-y: initial;
+	background-size: initial;
+	background-repeat-x: initial;
+	background-repeat-y: initial;
+	background-attachment: initial;
+	background-origin: initial;
+	background-clip: initial;
+	color: #fff;
+	text-align: center;
+	height: 100%;
+	width: auto;
+	animation:cycle 120s linear infinite;
+	-moz-animation:cycle 120s linear infinite; /* Firefox */
+	-webkit-animation:cycle 120s linear infinite; /* Safari and Chrome */
+	-o-animation:cycle 120s linear infinite; /* Opera */
+}
+
+/*begin animation keyframes*/
+@keyframes cycle
+{
+	0%, 100% {background-color: #e51c23;}
+	10% {background-color: #673ab7;}
+	20% {background-color: #3f51b5;}
+	30% {background-color: #009688;}
+	40% {background-color: #259b24;}
+	50% {background-color: #8bc34a;}
+	60% {background-color: #fbc02d;}
+	70% {background-color: #ef6c00;}
+	80% {background-color: #ff3d00;}
+	90% {background-color: #795548;}
+}
+
+@-moz-keyframes cycle /* Firefox */
+{
+	0%, 100% {background-color: #e51c23;}
+	10% {background-color: #673ab7;}
+	20% {background-color: #3f51b5;}
+	30% {background-color: #009688;}
+	40% {background-color: #259b24;}
+	50% {background-color: #8bc34a;}
+	60% {background-color: #fbc02d;}
+	70% {background-color: #ef6c00;}
+	80% {background-color: #ff3d00;}
+	90% {background-color: #795548;}
+}
+
+@-webkit-keyframes cycle /* Safari and Chrome */
+{
+	0%, 100% {background-color: #e51c23;}
+	10% {background-color: #673ab7;}
+	20% {background-color: #3f51b5;}
+	30% {background-color: #009688;}
+	40% {background-color: #259b24;}
+	50% {background-color: #8bc34a;}
+	60% {background-color: #fbc02d;}
+	70% {background-color: #ef6c00;}
+	80% {background-color: #ff3d00;}
+	90% {background-color: #795548;}
+}
+
+@-o-keyframes cycle /* Opera */
+{
+	0%, 100% {background-color: #e51c23;}
+	10% {background-color: #673ab7;}
+	20% {background-color: #3f51b5;}
+	30% {background-color: #009688;}
+	40% {background-color: #259b24;}
+	50% {background-color: #8bc34a;}
+	60% {background-color: #fbc02d;}
+	70% {background-color: #ef6c00;}
+	80% {background-color: #ff3d00;}
+	90% {background-color: #795548;}
+} /*end animation keyframes*/
